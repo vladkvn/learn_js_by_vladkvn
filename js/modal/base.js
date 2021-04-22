@@ -122,7 +122,7 @@ $.modal = function (options) {
                 options.beforeOpen();
                 modal.classList.remove('close')
                 modal.classList.add('open')
-                options.onClose();
+                options.onOpen();
             }
         },
         close() {
